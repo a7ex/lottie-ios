@@ -1,3 +1,5 @@
+**Note: This was forked, because its Swift Package file defines compliance to tvOS and iOS < 11, which breaks our Storyboards and all IBDesignables fail to render, because of errors. (Named colors are only supported in iOS versions >= 11)**
+
 # Lottie for iOS, macOS (and [Android](https://github.com/airbnb/lottie-android) and [React Native](https://github.com/airbnb/lottie-react-native))
 [![Version](https://img.shields.io/cocoapods/v/lottie-ios.svg?style=flat)](https://cocoapods.org/pods/lottie-ios)[![License](https://img.shields.io/cocoapods/l/lottie-ios.svg?style=flat)](https://cocoapods.org/pods/lottie-ios)[![Platform](https://img.shields.io/cocoapods/p/lottie-ios.svg?style=flat)](https://cocoapods.org/pods/lottie-ios)
 
